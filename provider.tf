@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "sbhoir-mybucket"
-    key    = "path/to/my/key"
+    key    = "dev/aws"
     region = "us-east-1"
   }
 }
